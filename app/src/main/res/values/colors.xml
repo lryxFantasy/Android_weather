@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="yellow">#FFFFEB3B</color>
+
+        <!-- 主题 1 -->
+        <color name="theme_color_1_start">#FFD700</color>  <!-- 金黄色 -->
+        <color name="theme_color_1_end">#1E90FF</color>    <!-- 道奇蓝色 -->
+
+        <!-- 主题 3 -->
+        <color name="theme_color_3_start">#BC95C6</color>
+        <color name="theme_color_3_end">#7DC4CC</color>
+
+        <!-- 主题 4 -->
+    <!-- 暗紫色 -->
+    <!-- 靛蓝色 -->
+
+        <!-- 主题 5 -->
+    <!-- 橄榄深绿 -->
+    <!-- 橄榄色 -->
+
+        <!-- 主题 6 -->
+    <!-- 深粉色 -->
+    <!-- 紫色 -->
+
+        <!-- 主题 7 -->
+    <!-- 暗青色 -->
+    <!-- 深灰蓝色 -->
+
+        <!-- 主题 8 -->
+    <!-- 番茄红 -->
+    <!-- 深红色 -->
+
+        <!-- 主题 2 -->
+        <color name="theme_color_2_start">#4CA1AF</color>
+        <color name="theme_color_2_end">#C4E0E5</color>
+
+        <!-- 主题 10 -->
+    <!-- 巧克力色 -->
+    <!-- 火砖红 -->
+
+        <!-- 主题 11 -->
+    <!-- 深海绿色 -->
+    <!-- 靛蓝色 -->
+
+        <!-- 主题 12 -->
+    <!-- 深橙色 -->
+    <!-- 深海绿色 -->
+
+        <!-- 主题 13 -->
+    <!-- 海洋绿 -->
+    <!-- 深绿色 -->
+
+
+</resources>

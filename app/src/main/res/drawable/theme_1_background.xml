@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- 设置渐变背景 -->
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/theme_color_1_start"
+                android:endColor="@color/theme_color_1_end"
+                android:angle="45" />
+        </shape>
+    </item>
+</layer-list>

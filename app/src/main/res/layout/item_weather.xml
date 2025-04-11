@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal">
+
+    <!-- 城市名称 -->
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市名称"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 显示天气图标 -->
+    <ImageView
+        android:id="@+id/weatherImageView"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:contentDescription="Weather Image"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 显示日期 -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 显示今日天气 -->
+    <TextView
+        android:id="@+id/weatherDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日天气"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- 显示温度范围 -->
+    <TextView
+        android:id="@+id/temperatureRangeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度范围"
+        android:textSize="27dp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- 显示风级 -->
+    <TextView
+        android:id="@+id/windTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="风级"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"/>
+
+    <!-- 显示未来天气（合并日期、天气、温度、风力） -->
+    <TextView
+        android:id="@+id/futureWeatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未来天气"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/theme_1_background"
+    android:padding="16dp">
+
+    <!-- 顶部操作区 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp">
+
+        <!-- 添加城市按钮 -->
+        <Button
+            android:id="@+id/btn_add_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="添加城市"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:onClick="onAddCityClick" />
+
+        <!-- 幻想天气文本 -->
+        <TextView
+            android:id="@+id/txt_fantasy_weather"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="幻想天气"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- 删除城市按钮 -->
+        <Button
+            android:id="@+id/btn_delete_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除城市"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:onClick="onDeleteCityClick" />
+    </LinearLayout>
+
+    <!-- 换肤和当前城市显示 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="16dp">
+
+        <!-- 换肤按钮 -->
+        <Button
+            android:id="@+id/btn_switch_skin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="换肤"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="onSwitchSkinClick" />
+
+        <!-- 当前选中城市 -->
+        <TextView
+            android:id="@+id/txt_current_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前城市"
+            android:textSize="25dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp" />
+
+        <!-- 关于按钮 -->
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            android:onClick="onAboutClick" />
+    </LinearLayout>
+
+    <!-- 城市天气信息的 ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
